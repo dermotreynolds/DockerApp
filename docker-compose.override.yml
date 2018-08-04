@@ -3,7 +3,7 @@ version: '3.4'
 services:
   webapplication9:
     ports:
-      - "80"
+      - "80:80"
 networks:
   default:
     external:
